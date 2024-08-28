@@ -1,3 +1,9 @@
+--Integrantes:
+--Oliver Barrido Diego          221045228
+--Janco Alvarez Luis Gabriel    220104875
+--Romero Saavedra Maria Ilse    222009772
+
+
 -- Verifica si la base de datos existe y la crea si no existe
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'AirlineDB')
 BEGIN
